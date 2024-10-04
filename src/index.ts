@@ -4,8 +4,8 @@ import helmet from "helmet";
 import cors from "cors";
 import { PORT } from "./config/config";
 import { dbConnect } from "./config/db";
-import userRoutes from "./routes/userRoutes";
-import accountRoutes from "./routes/accountRoute";
+import userRoutes from "./routes/user";
+import accountRoutes from "./routes/account";
 
 const app = express();
 

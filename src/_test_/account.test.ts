@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import app from "../index";
 import request from "supertest";
-import { userModel } from "../model/userModel";
+import { userModel } from "../model/user";
 import { generateJwtToken } from "../utils/util";
 import { IUser } from "../utils/interfaces";
 

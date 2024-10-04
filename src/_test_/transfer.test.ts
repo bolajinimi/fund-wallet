@@ -3,8 +3,8 @@ import app from "../index";
 import mongoose from "mongoose";
 
 import { generateAcctNo, generateJwtToken } from "../utils/util";
-import { userModel } from "../model/userModel";
-import { accountModel } from "../model/accountModel";
+import { userModel } from "../model/user";
+import { accountModel } from "../model/account";
 
 describe("POST /api/account/transfer", () => {
   let senderUser: any;

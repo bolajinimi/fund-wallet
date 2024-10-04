@@ -5,7 +5,7 @@ import {
   getAccount,
   transferFund,
   withdrawFund,
-} from "../controller/accountController";
+} from "../controller/account";
 import { auth } from "../middleware/auth";
 
 const router = Router();
